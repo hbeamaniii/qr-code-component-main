@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #d5e1ef;
+}
+
+.qr_container {
+  background: #fff;
+  width: 320px;
+  height: 500px;
+  margin: auto;
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+}
+
+.qr_container img {
+  width: 100%;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.info {
+  width: 288px;
+  margin: auto;
+}
+
+.info h1 {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+}
+
+.info p {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: hsl(216, 15%, 48%);
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background: hsl(218, 44%, 22%);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  /*Desktop Rules Here*/
+}
