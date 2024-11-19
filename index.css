@@ -6,7 +6,8 @@ body {
   background: #d5e1ef;
 }
 
-.qr_container {
+.container {
+  box-sizing: border-box;
   background: #fff;
   width: 320px;
   height: 500px;
@@ -15,7 +16,7 @@ body {
   border-radius: 20px;
 }
 
-.qr_container img {
+.container img {
   width: 100%;
   margin: 0;
   border-radius: 10px;
@@ -54,9 +55,7 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-  body {
-    background: hsl(218, 44%, 22%);
-  }
+  /*Mobile Rules Here*/
 }
 
 @media screen and (max-width: 1440px) {
